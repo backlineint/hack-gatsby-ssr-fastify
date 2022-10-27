@@ -6,6 +6,12 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-fastify`,
+      options: {
+        /* discussed below */
+      }, // All options are optional
+    },
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,
